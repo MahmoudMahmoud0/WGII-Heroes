@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WGII Scoring System</title>
+  <style>
+    :root {
+      --bg: #f4efe5;
+      --panel: #fffdf8;
+      --ink: #2d241a;
+      --muted: #6d5a49;
+      --line: rgba(93, 66, 39, 0.16);
+      --accent: #9c4b23;
+      --shadow: 0 18px 60px rgba(66, 41, 17, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(255, 223, 170, 0.45), transparent 25%),
+        linear-gradient(180deg, #efe4cc 0%, #f7f2e8 50%, #efe4cf 100%);
+      min-height: 100vh;
+    }
+
+    main {
+      width: min(980px, calc(100% - 32px));
+      margin: 24px auto 40px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+      line-height: 1.65;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.2;
+      margin: 1.2em 0 0.5em;
+      color: #241b13;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+    }
+
+    p, li {
+      font-size: 1rem;
+    }
+
+    ul {
+      margin: 0.5em 0 1em 1.25em;
+      padding: 0;
+    }
+
+    pre {
+      overflow: auto;
+      background: #f7f0e3;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0 1.25rem;
+      overflow: hidden;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: #fffaf2;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    th {
+      background: #f4ead7;
+      font-size: 0.92rem;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.95em;
+    }
+
+    .topbar {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .link {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background: var(--accent);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="topbar">
+      <a class="link" href="./index.html">Open Dashboard</a>
+    </div>
+    <h1>Hero Scoring System</h1><p>This document explains the current scoring logic used to analyze heroes for PvP, rally joiners, offense, and defense.</p><h2>Scope</h2><p>The scoring system is based on:</p><ul><li>[heroes_skills.json](&lt;/c:/Users/Mahmoud/Desktop/WGII/heroes screenshots/finals/heroes_skills.json&gt;)</li><li>[hero_types.json](&lt;/c:/Users/Mahmoud/Desktop/WGII/heroes screenshots/finals/hero_types.json&gt;)</li><li>[analyze_heroes.py](&lt;/c:/Users/Mahmoud/Desktop/WGII/heroes screenshots/analyze_heroes.py&gt;)</li></ul><h2>Core Rules</h2><p>1. PvP scoring uses only `on_map_skills`.</p><p>2. Rally joiner scoring uses only the first `on_map_skill`.</p><p>3. Hero comparisons should be made inside the same type:</p><ul><li>`Shooter`</li><li>`Ranger`</li><li>`Brawler`</li></ul><p>4. Economy-only effects are excluded from PvP scoring.</p><h2>Data Source</h2><p>All numeric scoring is based on the maximum values found in `upgrade_preview`.</p><p>That means the system does not use the currently visible in-screenshot level. It uses the highest upgrade value available for each skill effect.</p><p>Example:</p><pre><code>Damage Rate: 115%/138%/161%/184%/230%</code></pre><p>The scoring system uses `230%`.</p><h2>Description Normalization</h2><p>Skill descriptions are normalized to match the max values from `upgrade_preview` when replacement is safe.</p><p>Safe replacements:</p><ul><li>one percentage in the description -&gt; replaced with the max preview percentage</li><li>same number of percentages in description and preview tracks -&gt; replaced left to right</li></ul><p>Unsafe cases are left unchanged to avoid corrupting text.</p><h2>Effects Ignored for PvP</h2><p>These are treated as non-PvP utility:</p><ul><li>production</li><li>gathering</li><li>research</li><li>training</li><li>construction</li><li>resource cost reduction</li><li>beast or caravan march speed</li><li>stamina cost reduction</li></ul><h2>Proc Chance Handling</h2><p>If a skill includes chance-based wording, the score is discounted by that chance.</p><p>Recognized examples:</p><ul><li>`has 50% chance`</li><li>`with a 10% chance`</li><li>`25% chance`</li></ul><p>Example:</p><pre><code>Damage Dealt: 200%
+With a 25% chance</code></pre><p>Effective scored value:</p><pre><code>200 x 0.25</code></pre><h2>Rally Bonus Handling</h2><p>If an effect is rally-related, it gets a rally multiplier.</p><p>Current rally multiplier:</p><pre><code>1.25</code></pre><h2>Base Weights</h2><p>These are the core effect weights before proc chance and rally bonus are applied.</p><table><thead><tr><th>Effect</th><th>Weight</th><th>Lean</th></tr></thead><tbody><tr><td>`enemy troop damage received`</td><td>1.25</td><td>offense</td></tr><tr><td>`damage dealt by enemy troop reduction`</td><td>1.15</td><td>defense</td></tr><tr><td>`enemy troop attack weakening`</td><td>1.10</td><td>mostly defense</td></tr><tr><td>`enemy troop defense weakening`</td><td>1.00</td><td>offense</td></tr><tr><td>`received damage reduction`</td><td>1.15</td><td>defense</td></tr><tr><td>`damage dealt`</td><td>1.10</td><td>offense</td></tr><tr><td>`troop dmg dealt enhancement`</td><td>1.10</td><td>offense</td></tr><tr><td>`dmg dealt enhancement`</td><td>1.10</td><td>offense</td></tr><tr><td>`troop attack enhancement`</td><td>1.00</td><td>offense</td></tr><tr><td>`troop defense enhancement`</td><td>0.80</td><td>defense</td></tr><tr><td>`troop life enhancement`</td><td>0.85</td><td>defense</td></tr><tr><td>`troop healing speed`</td><td>0.20</td><td>defense utility</td></tr><tr><td>`on-map battle troop march speed`</td><td>0.10</td><td>low PvP value</td></tr><tr><td>`stamina cost reduction`</td><td>0.05</td><td>low PvP value</td></tr></tbody></table><h2>Skill Score Formula</h2><p>For one recognized effect:</p><pre><code>effect score = max upgrade value x effect weight x proc chance x rally bonus</code></pre><p>For one skill:</p><pre><code>skill score = sum of all recognized effects inside that skill</code></pre><h2>Hero PvP Score</h2><p>The hero PvP score is the total of all on-map skill scores:</p><pre><code>pvp_score = sum(all on_map skill scores)</code></pre><h2>Offense and Defense Split</h2><p>Each effect also contributes to either offense, defense, or both.</p><h3>Mostly offensive</h3><ul><li>`enemy troop damage received`</li><li>`damage dealt`</li><li>`enemy troop defense weakening`</li><li>`troop attack enhancement`</li></ul><h3>Mostly defensive</h3><ul><li>`received damage reduction`</li><li>`damage dealt by enemy troop reduction`</li><li>`troop defense enhancement`</li><li>`troop life enhancement`</li></ul><h3>Mixed</h3><ul><li>`enemy troop attack weakening`</li><li>mostly defense</li><li>slight offense credit</li></ul><p>This produces:</p><ul><li>`offense_score`</li><li>`defense_score`</li></ul><h2>Combat Role</h2><p>Each hero is labeled:</p><ul><li>`Attack`</li><li>`Defense`</li><li>`Hybrid`</li></ul><p>Current rule:</p><pre><code>Attack  if offense_score &gt; defense_score x 1.2
+Defense if defense_score &gt; offense_score x 1.2
+Hybrid  otherwise</code></pre><h2>Rally Joiner Scores</h2><p>Only the first `on_map_skill` is used.</p><p>The system computes:</p><ul><li>`rally_joiner_score`</li><li>`rally_offense_score`</li><li>`rally_defense_score`</li></ul><h2>Rally Ranking</h2><p>Attack and defense are not mixed for rally evaluation.</p><p>This means:</p><ul><li>`rally_offense_score` ranks attack-oriented rally joiners</li><li>`rally_defense_score` ranks defense-oriented rally joiners</li><li>`rally_joiner_score` remains the raw first-skill total for reference only</li></ul><h2>Ranking Priorities</h2><h3>PvP ranking</h3><pre><code>sort by pvp_score
+then rally score</code></pre><h3>Rally attack ranking</h3><pre><code>sort by rally_offense_score
+then rally_joiner_score
+then pvp_score</code></pre><h3>Rally defense ranking</h3><pre><code>sort by rally_defense_score
+then rally_offense_score
+then rally_joiner_score
+then pvp_score</code></pre><h3>Attack ranking</h3><pre><code>sort by offense_score
+then pvp_score</code></pre><h3>Defense ranking</h3><pre><code>sort by defense_score
+then pvp_score</code></pre><h2>Fallback Behavior</h2><p>If OCR misses a proper stat line but the description still looks combat-related, a small fallback score may be assigned.</p><p>Examples:</p><ul><li>`damage dealt` text -&gt; small offense fallback</li><li>`damage reduction` text -&gt; small defense fallback</li><li>`troop attack` text -&gt; small offense fallback</li><li>`enemy attack` text -&gt; small defense fallback</li></ul><p>This helps avoid zero scores caused purely by OCR wording issues.</p><h2>Examples</h2><h3>Emily</h3><p>First on-map skill:</p><ul><li>`Damage Dealt: 20%`</li><li>`Rally DMG Dealt Enhancement: 5%`</li></ul><p>Because `damage dealt` is weighted higher than plain `troop attack`, Emily scores strongly as an offensive rally joiner.</p><h3>Red Cloud</h3><p>First on-map skill:</p><ul><li>`Troop Attack: 20%`</li><li>`Rally Troop Attack Enhancement: 5%`</li></ul><p>This is still good, but slightly lower than Emily because the current system values `damage dealt` above `troop attack`.</p><h3>Eleanor Dumont</h3><p>Her kit is chance-based, so her effects are discounted by proc chance.</p><p>Examples:</p><ul><li>`250%` at `10% proc`</li><li>`200%` at `25% proc`</li><li>`60%` reduction at `40% proc`</li></ul><p>This prevents chance-based heroes from being overvalued as if their effects were always active.</p><h2>Practical Reading Guide</h2><p>Use the scores like this:</p><ul><li>`pvp_score` tells you overall on-map combat value</li><li>`offense_score` tells you pressure and damage value</li><li>`defense_score` tells you survivability and mitigation value</li><li>`rally_offense_score` tells you who is strongest for attack-oriented rally joining</li><li>`rally_defense_score` tells you who is strongest for defensive rally joining</li></ul><p>Best practice:</p><ul><li>compare heroes inside the same type</li><li>compare attack heroes with attack heroes</li><li>compare defense heroes with defense heroes</li><li>use mixed-type rankings only as rough overviews</li></ul><h2>Notes</h2><p>This is a heuristic text-based scoring system, not a full combat simulator.</p><p>It does not model:</p><ul><li>hidden game formulas</li><li>exact troop stat scaling</li><li>timing interactions</li><li>skill sequencing</li><li>undocumented in-game modifiers</li></ul><p>It is meant to provide a structured, editable comparison model from the extracted skill text.</p>
+  </main>
+</body>
+</html>
