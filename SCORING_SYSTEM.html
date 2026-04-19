@@ -80,6 +80,10 @@
       border-radius: 16px;
       border: 1px solid var(--line);
       background: #fffaf2;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
     }
 
     th, td {
@@ -118,6 +122,47 @@
       border-radius: 999px;
       padding: 10px 14px;
       font-size: 0.95rem;
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: min(100% - 16px, 980px);
+        margin: 12px auto 24px;
+        padding: 18px;
+        border-radius: 20px;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+        padding-top: 14px;
+      }
+
+      th, td {
+        padding: 9px 10px;
+      }
+
+      .topbar {
+        margin-bottom: 16px;
+      }
+
+      .link {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 520px) {
+      body {
+        font-size: 15px;
+      }
+
+      main {
+        padding: 16px;
+      }
+
+      p, li {
+        font-size: 0.96rem;
+      }
     }
   </style>
 </head>

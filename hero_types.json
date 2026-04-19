@@ -13,7 +13,11 @@
   "Red Cloud": "Shooter",
   "Wyatt Earp": "Ranger",
   "Annie Oakes": "Shooter",
-  "Billy the Kid": "Shooter",
+  "Billy the Kid": [
+    "Shooter",
+    "Ranger",
+    "Brawler"
+  ],
   "Buster Dalton": "Ranger",
   "Calamity Jane": "Shooter",
   "Danielle Moonlight": "Brawler",
