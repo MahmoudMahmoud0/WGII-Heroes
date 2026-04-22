@@ -409,43 +409,6 @@
       ]
     },
     {
-      "hero": "Maeve Millais",
-      "rarity": "Super Rare",
-      "hero_type": "Ranger",
-      "hero_types": [
-        "Ranger"
-      ],
-      "pvp_score": 57.38,
-      "offense_score": 34.38,
-      "defense_score": 23.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Twin Barrel Onslaught",
-      "skill_breakdown": [
-        {
-          "skill_name": "Twin Barrel Onslaught",
-          "score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Dual Cover",
-          "score": 23.0,
-          "offense_score": 0.0,
-          "defense_score": 23.0,
-          "reasons": [
-            "damage reduction 20%"
-          ]
-        }
-      ]
-    },
-    {
       "hero": "Calamity Jane",
       "rarity": "Super-Super Rare",
       "hero_type": "Shooter",
@@ -492,37 +455,38 @@
       ]
     },
     {
-      "hero": "Ezekiel",
+      "hero": "Maeve Millais",
       "rarity": "Super Rare",
-      "hero_type": "Brawler",
+      "hero_type": "Ranger",
       "hero_types": [
-        "Brawler"
+        "Ranger"
       ],
-      "pvp_score": 48.75,
-      "offense_score": 20.0,
-      "defense_score": 28.75,
-      "rally_joiner_score": 28.75,
-      "rally_offense_score": 0.0,
-      "rally_defense_score": 28.75,
-      "combat_role": "Defense",
-      "first_on_map_skill": "Precision Dissection",
+      "pvp_score": 50.5,
+      "offense_score": 27.5,
+      "defense_score": 23.0,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
+      "rally_defense_score": 0.0,
+      "combat_role": "Hybrid",
+      "first_on_map_skill": "Twin Barrel Onslaught",
       "skill_breakdown": [
         {
-          "skill_name": "Precision Dissection",
-          "score": 28.75,
-          "offense_score": 0.0,
-          "defense_score": 28.75,
+          "skill_name": "Twin Barrel Onslaught",
+          "score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
           "reasons": [
-            "damage reduction 20% with rally bonus"
+            "damage dealt 20%",
+            "damage dealt 5%"
           ]
         },
         {
-          "skill_name": "Hardened Surgeon",
-          "score": 20.0,
-          "offense_score": 20.0,
-          "defense_score": 0.0,
+          "skill_name": "Dual Cover",
+          "score": 23.0,
+          "offense_score": 0.0,
+          "defense_score": 23.0,
           "reasons": [
-            "troop attack 20%"
+            "damage reduction 20%"
           ]
         }
       ]
@@ -600,29 +564,65 @@
       ]
     },
     {
+      "hero": "Ezekiel",
+      "rarity": "Super Rare",
+      "hero_type": "Brawler",
+      "hero_types": [
+        "Brawler"
+      ],
+      "pvp_score": 43.0,
+      "offense_score": 20.0,
+      "defense_score": 23.0,
+      "rally_joiner_score": 23.0,
+      "rally_offense_score": 0.0,
+      "rally_defense_score": 23.0,
+      "combat_role": "Hybrid",
+      "first_on_map_skill": "Precision Dissection",
+      "skill_breakdown": [
+        {
+          "skill_name": "Precision Dissection",
+          "score": 23.0,
+          "offense_score": 0.0,
+          "defense_score": 23.0,
+          "reasons": [
+            "damage reduction 20%"
+          ]
+        },
+        {
+          "skill_name": "Hardened Surgeon",
+          "score": 20.0,
+          "offense_score": 20.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "troop attack 20%"
+          ]
+        }
+      ]
+    },
+    {
       "hero": "Emily",
       "rarity": "Super Rare",
       "hero_type": "Shooter",
       "hero_types": [
         "Shooter"
       ],
-      "pvp_score": 34.38,
-      "offense_score": 34.38,
+      "pvp_score": 27.5,
+      "offense_score": 27.5,
       "defense_score": 0.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
       "rally_defense_score": 0.0,
       "combat_role": "Attack",
       "first_on_map_skill": "Dual Blade Dance",
       "skill_breakdown": [
         {
           "skill_name": "Dual Blade Dance",
-          "score": 34.38,
-          "offense_score": 34.38,
+          "score": 27.5,
+          "offense_score": 27.5,
           "defense_score": 0.0,
           "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
+            "damage dealt 20%",
+            "damage dealt 5%"
           ]
         },
         {
@@ -643,23 +643,23 @@
       "hero_types": [
         "Shooter"
       ],
-      "pvp_score": 31.25,
-      "offense_score": 31.25,
+      "pvp_score": 25.0,
+      "offense_score": 25.0,
       "defense_score": 0.0,
-      "rally_joiner_score": 31.25,
-      "rally_offense_score": 31.25,
+      "rally_joiner_score": 25.0,
+      "rally_offense_score": 25.0,
       "rally_defense_score": 0.0,
       "combat_role": "Attack",
       "first_on_map_skill": "Eagle Eye Marksman",
       "skill_breakdown": [
         {
           "skill_name": "Eagle Eye Marksman",
-          "score": 31.25,
-          "offense_score": 31.25,
+          "score": 25.0,
+          "offense_score": 25.0,
           "defense_score": 0.0,
           "reasons": [
-            "troop attack 20% with rally bonus",
-            "troop attack 5% with rally bonus"
+            "troop attack 20%",
+            "troop attack 5%"
           ]
         },
         {
@@ -928,80 +928,6 @@
   ],
   "rally_attack_rankings": [
     {
-      "hero": "Maeve Millais",
-      "rarity": "Super Rare",
-      "hero_type": "Ranger",
-      "hero_types": [
-        "Ranger"
-      ],
-      "pvp_score": 57.38,
-      "offense_score": 34.38,
-      "defense_score": 23.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Twin Barrel Onslaught",
-      "skill_breakdown": [
-        {
-          "skill_name": "Twin Barrel Onslaught",
-          "score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Dual Cover",
-          "score": 23.0,
-          "offense_score": 0.0,
-          "defense_score": 23.0,
-          "reasons": [
-            "damage reduction 20%"
-          ]
-        }
-      ]
-    },
-    {
-      "hero": "Emily",
-      "rarity": "Super Rare",
-      "hero_type": "Shooter",
-      "hero_types": [
-        "Shooter"
-      ],
-      "pvp_score": 34.38,
-      "offense_score": 34.38,
-      "defense_score": 0.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Dual Blade Dance",
-      "skill_breakdown": [
-        {
-          "skill_name": "Dual Blade Dance",
-          "score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Artisan's Wisdom",
-          "score": 0.0,
-          "offense_score": 0.0,
-          "defense_score": 0.0,
-          "reasons": [
-            "non-PvP utility"
-          ]
-        }
-      ]
-    },
-    {
       "hero": "Eleanor Dumont",
       "rarity": "Super-Super Rare",
       "hero_type": "Shooter",
@@ -1042,43 +968,6 @@
           "defense_score": 27.6,
           "reasons": [
             "damage reduction 60% at 40% proc"
-          ]
-        }
-      ]
-    },
-    {
-      "hero": "Red Cloud",
-      "rarity": "Super Rare",
-      "hero_type": "Shooter",
-      "hero_types": [
-        "Shooter"
-      ],
-      "pvp_score": 31.25,
-      "offense_score": 31.25,
-      "defense_score": 0.0,
-      "rally_joiner_score": 31.25,
-      "rally_offense_score": 31.25,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Eagle Eye Marksman",
-      "skill_breakdown": [
-        {
-          "skill_name": "Eagle Eye Marksman",
-          "score": 31.25,
-          "offense_score": 31.25,
-          "defense_score": 0.0,
-          "reasons": [
-            "troop attack 20% with rally bonus",
-            "troop attack 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Wilderness Medicine",
-          "score": 0.0,
-          "offense_score": 0.0,
-          "defense_score": 0.0,
-          "reasons": [
-            "non-PvP utility"
           ]
         }
       ]
@@ -1176,6 +1065,80 @@
       ]
     },
     {
+      "hero": "Maeve Millais",
+      "rarity": "Super Rare",
+      "hero_type": "Ranger",
+      "hero_types": [
+        "Ranger"
+      ],
+      "pvp_score": 50.5,
+      "offense_score": 27.5,
+      "defense_score": 23.0,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
+      "rally_defense_score": 0.0,
+      "combat_role": "Hybrid",
+      "first_on_map_skill": "Twin Barrel Onslaught",
+      "skill_breakdown": [
+        {
+          "skill_name": "Twin Barrel Onslaught",
+          "score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
+          "reasons": [
+            "damage dealt 20%",
+            "damage dealt 5%"
+          ]
+        },
+        {
+          "skill_name": "Dual Cover",
+          "score": 23.0,
+          "offense_score": 0.0,
+          "defense_score": 23.0,
+          "reasons": [
+            "damage reduction 20%"
+          ]
+        }
+      ]
+    },
+    {
+      "hero": "Emily",
+      "rarity": "Super Rare",
+      "hero_type": "Shooter",
+      "hero_types": [
+        "Shooter"
+      ],
+      "pvp_score": 27.5,
+      "offense_score": 27.5,
+      "defense_score": 0.0,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
+      "rally_defense_score": 0.0,
+      "combat_role": "Attack",
+      "first_on_map_skill": "Dual Blade Dance",
+      "skill_breakdown": [
+        {
+          "skill_name": "Dual Blade Dance",
+          "score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
+          "reasons": [
+            "damage dealt 20%",
+            "damage dealt 5%"
+          ]
+        },
+        {
+          "skill_name": "Artisan's Wisdom",
+          "score": 0.0,
+          "offense_score": 0.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "non-PvP utility"
+          ]
+        }
+      ]
+    },
+    {
       "hero": "Jango",
       "rarity": "Super-Super Rare",
       "hero_type": "Ranger",
@@ -1216,6 +1179,43 @@
           "defense_score": 21.25,
           "reasons": [
             "troop life 25%"
+          ]
+        }
+      ]
+    },
+    {
+      "hero": "Red Cloud",
+      "rarity": "Super Rare",
+      "hero_type": "Shooter",
+      "hero_types": [
+        "Shooter"
+      ],
+      "pvp_score": 25.0,
+      "offense_score": 25.0,
+      "defense_score": 0.0,
+      "rally_joiner_score": 25.0,
+      "rally_offense_score": 25.0,
+      "rally_defense_score": 0.0,
+      "combat_role": "Attack",
+      "first_on_map_skill": "Eagle Eye Marksman",
+      "skill_breakdown": [
+        {
+          "skill_name": "Eagle Eye Marksman",
+          "score": 25.0,
+          "offense_score": 25.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "troop attack 20%",
+            "troop attack 5%"
+          ]
+        },
+        {
+          "skill_name": "Wilderness Medicine",
+          "score": 0.0,
+          "offense_score": 0.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "non-PvP utility"
           ]
         }
       ]
@@ -1429,42 +1429,6 @@
       ]
     },
     {
-      "hero": "Ezekiel",
-      "rarity": "Super Rare",
-      "hero_type": "Brawler",
-      "hero_types": [
-        "Brawler"
-      ],
-      "pvp_score": 48.75,
-      "offense_score": 20.0,
-      "defense_score": 28.75,
-      "rally_joiner_score": 28.75,
-      "rally_offense_score": 0.0,
-      "rally_defense_score": 28.75,
-      "combat_role": "Defense",
-      "first_on_map_skill": "Precision Dissection",
-      "skill_breakdown": [
-        {
-          "skill_name": "Precision Dissection",
-          "score": 28.75,
-          "offense_score": 0.0,
-          "defense_score": 28.75,
-          "reasons": [
-            "damage reduction 20% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Hardened Surgeon",
-          "score": 20.0,
-          "offense_score": 20.0,
-          "defense_score": 0.0,
-          "reasons": [
-            "troop attack 20%"
-          ]
-        }
-      ]
-    },
-    {
       "hero": "Annie Oakes",
       "rarity": "Super-Super Rare",
       "hero_type": "Shooter",
@@ -1668,6 +1632,42 @@
           "defense_score": 0.0,
           "reasons": [
             "damage dealt 40% at 50% proc"
+          ]
+        }
+      ]
+    },
+    {
+      "hero": "Ezekiel",
+      "rarity": "Super Rare",
+      "hero_type": "Brawler",
+      "hero_types": [
+        "Brawler"
+      ],
+      "pvp_score": 43.0,
+      "offense_score": 20.0,
+      "defense_score": 23.0,
+      "rally_joiner_score": 23.0,
+      "rally_offense_score": 0.0,
+      "rally_defense_score": 23.0,
+      "combat_role": "Hybrid",
+      "first_on_map_skill": "Precision Dissection",
+      "skill_breakdown": [
+        {
+          "skill_name": "Precision Dissection",
+          "score": 23.0,
+          "offense_score": 0.0,
+          "defense_score": 23.0,
+          "reasons": [
+            "damage reduction 20%"
+          ]
+        },
+        {
+          "skill_name": "Hardened Surgeon",
+          "score": 20.0,
+          "offense_score": 20.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "troop attack 20%"
           ]
         }
       ]
@@ -1946,42 +1946,6 @@
       ]
     },
     {
-      "hero": "Ezekiel",
-      "rarity": "Super Rare",
-      "hero_type": "Brawler",
-      "hero_types": [
-        "Brawler"
-      ],
-      "pvp_score": 48.75,
-      "offense_score": 20.0,
-      "defense_score": 28.75,
-      "rally_joiner_score": 28.75,
-      "rally_offense_score": 0.0,
-      "rally_defense_score": 28.75,
-      "combat_role": "Defense",
-      "first_on_map_skill": "Precision Dissection",
-      "skill_breakdown": [
-        {
-          "skill_name": "Precision Dissection",
-          "score": 28.75,
-          "offense_score": 0.0,
-          "defense_score": 28.75,
-          "reasons": [
-            "damage reduction 20% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Hardened Surgeon",
-          "score": 20.0,
-          "offense_score": 20.0,
-          "defense_score": 0.0,
-          "reasons": [
-            "troop attack 20%"
-          ]
-        }
-      ]
-    },
-    {
       "hero": "Annie Oakes",
       "rarity": "Super-Super Rare",
       "hero_type": "Shooter",
@@ -2190,6 +2154,42 @@
       ]
     },
     {
+      "hero": "Ezekiel",
+      "rarity": "Super Rare",
+      "hero_type": "Brawler",
+      "hero_types": [
+        "Brawler"
+      ],
+      "pvp_score": 43.0,
+      "offense_score": 20.0,
+      "defense_score": 23.0,
+      "rally_joiner_score": 23.0,
+      "rally_offense_score": 0.0,
+      "rally_defense_score": 23.0,
+      "combat_role": "Hybrid",
+      "first_on_map_skill": "Precision Dissection",
+      "skill_breakdown": [
+        {
+          "skill_name": "Precision Dissection",
+          "score": 23.0,
+          "offense_score": 0.0,
+          "defense_score": 23.0,
+          "reasons": [
+            "damage reduction 20%"
+          ]
+        },
+        {
+          "skill_name": "Hardened Surgeon",
+          "score": 20.0,
+          "offense_score": 20.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "troop attack 20%"
+          ]
+        }
+      ]
+    },
+    {
       "hero": "Mari Flores",
       "rarity": "Super Rare",
       "hero_type": "Ranger",
@@ -2262,80 +2262,6 @@
       ]
     },
     {
-      "hero": "Maeve Millais",
-      "rarity": "Super Rare",
-      "hero_type": "Ranger",
-      "hero_types": [
-        "Ranger"
-      ],
-      "pvp_score": 57.38,
-      "offense_score": 34.38,
-      "defense_score": 23.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Twin Barrel Onslaught",
-      "skill_breakdown": [
-        {
-          "skill_name": "Twin Barrel Onslaught",
-          "score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Dual Cover",
-          "score": 23.0,
-          "offense_score": 0.0,
-          "defense_score": 23.0,
-          "reasons": [
-            "damage reduction 20%"
-          ]
-        }
-      ]
-    },
-    {
-      "hero": "Emily",
-      "rarity": "Super Rare",
-      "hero_type": "Shooter",
-      "hero_types": [
-        "Shooter"
-      ],
-      "pvp_score": 34.38,
-      "offense_score": 34.38,
-      "defense_score": 0.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Dual Blade Dance",
-      "skill_breakdown": [
-        {
-          "skill_name": "Dual Blade Dance",
-          "score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Artisan's Wisdom",
-          "score": 0.0,
-          "offense_score": 0.0,
-          "defense_score": 0.0,
-          "reasons": [
-            "non-PvP utility"
-          ]
-        }
-      ]
-    },
-    {
       "hero": "Eleanor Dumont",
       "rarity": "Super-Super Rare",
       "hero_type": "Shooter",
@@ -2376,43 +2302,6 @@
           "defense_score": 27.6,
           "reasons": [
             "damage reduction 60% at 40% proc"
-          ]
-        }
-      ]
-    },
-    {
-      "hero": "Red Cloud",
-      "rarity": "Super Rare",
-      "hero_type": "Shooter",
-      "hero_types": [
-        "Shooter"
-      ],
-      "pvp_score": 31.25,
-      "offense_score": 31.25,
-      "defense_score": 0.0,
-      "rally_joiner_score": 31.25,
-      "rally_offense_score": 31.25,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Eagle Eye Marksman",
-      "skill_breakdown": [
-        {
-          "skill_name": "Eagle Eye Marksman",
-          "score": 31.25,
-          "offense_score": 31.25,
-          "defense_score": 0.0,
-          "reasons": [
-            "troop attack 20% with rally bonus",
-            "troop attack 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Wilderness Medicine",
-          "score": 0.0,
-          "offense_score": 0.0,
-          "defense_score": 0.0,
-          "reasons": [
-            "non-PvP utility"
           ]
         }
       ]
@@ -2510,6 +2399,80 @@
       ]
     },
     {
+      "hero": "Maeve Millais",
+      "rarity": "Super Rare",
+      "hero_type": "Ranger",
+      "hero_types": [
+        "Ranger"
+      ],
+      "pvp_score": 50.5,
+      "offense_score": 27.5,
+      "defense_score": 23.0,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
+      "rally_defense_score": 0.0,
+      "combat_role": "Hybrid",
+      "first_on_map_skill": "Twin Barrel Onslaught",
+      "skill_breakdown": [
+        {
+          "skill_name": "Twin Barrel Onslaught",
+          "score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
+          "reasons": [
+            "damage dealt 20%",
+            "damage dealt 5%"
+          ]
+        },
+        {
+          "skill_name": "Dual Cover",
+          "score": 23.0,
+          "offense_score": 0.0,
+          "defense_score": 23.0,
+          "reasons": [
+            "damage reduction 20%"
+          ]
+        }
+      ]
+    },
+    {
+      "hero": "Emily",
+      "rarity": "Super Rare",
+      "hero_type": "Shooter",
+      "hero_types": [
+        "Shooter"
+      ],
+      "pvp_score": 27.5,
+      "offense_score": 27.5,
+      "defense_score": 0.0,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
+      "rally_defense_score": 0.0,
+      "combat_role": "Attack",
+      "first_on_map_skill": "Dual Blade Dance",
+      "skill_breakdown": [
+        {
+          "skill_name": "Dual Blade Dance",
+          "score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
+          "reasons": [
+            "damage dealt 20%",
+            "damage dealt 5%"
+          ]
+        },
+        {
+          "skill_name": "Artisan's Wisdom",
+          "score": 0.0,
+          "offense_score": 0.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "non-PvP utility"
+          ]
+        }
+      ]
+    },
+    {
       "hero": "Jango",
       "rarity": "Super-Super Rare",
       "hero_type": "Ranger",
@@ -2550,6 +2513,43 @@
           "defense_score": 21.25,
           "reasons": [
             "troop life 25%"
+          ]
+        }
+      ]
+    },
+    {
+      "hero": "Red Cloud",
+      "rarity": "Super Rare",
+      "hero_type": "Shooter",
+      "hero_types": [
+        "Shooter"
+      ],
+      "pvp_score": 25.0,
+      "offense_score": 25.0,
+      "defense_score": 0.0,
+      "rally_joiner_score": 25.0,
+      "rally_offense_score": 25.0,
+      "rally_defense_score": 0.0,
+      "combat_role": "Attack",
+      "first_on_map_skill": "Eagle Eye Marksman",
+      "skill_breakdown": [
+        {
+          "skill_name": "Eagle Eye Marksman",
+          "score": 25.0,
+          "offense_score": 25.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "troop attack 20%",
+            "troop attack 5%"
+          ]
+        },
+        {
+          "skill_name": "Wilderness Medicine",
+          "score": 0.0,
+          "offense_score": 0.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "non-PvP utility"
           ]
         }
       ]
@@ -3100,80 +3100,6 @@
       ]
     },
     {
-      "hero": "Maeve Millais",
-      "rarity": "Super Rare",
-      "hero_type": "Ranger",
-      "hero_types": [
-        "Ranger"
-      ],
-      "pvp_score": 57.38,
-      "offense_score": 34.38,
-      "defense_score": 23.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Twin Barrel Onslaught",
-      "skill_breakdown": [
-        {
-          "skill_name": "Twin Barrel Onslaught",
-          "score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Dual Cover",
-          "score": 23.0,
-          "offense_score": 0.0,
-          "defense_score": 23.0,
-          "reasons": [
-            "damage reduction 20%"
-          ]
-        }
-      ]
-    },
-    {
-      "hero": "Emily",
-      "rarity": "Super Rare",
-      "hero_type": "Shooter",
-      "hero_types": [
-        "Shooter"
-      ],
-      "pvp_score": 34.38,
-      "offense_score": 34.38,
-      "defense_score": 0.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Dual Blade Dance",
-      "skill_breakdown": [
-        {
-          "skill_name": "Dual Blade Dance",
-          "score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Artisan's Wisdom",
-          "score": 0.0,
-          "offense_score": 0.0,
-          "defense_score": 0.0,
-          "reasons": [
-            "non-PvP utility"
-          ]
-        }
-      ]
-    },
-    {
       "hero": "Annie Oakes",
       "rarity": "Super-Super Rare",
       "hero_type": "Shooter",
@@ -3214,43 +3140,6 @@
           "defense_score": 0.0,
           "reasons": [
             "damage dealt 50% at 50% proc"
-          ]
-        }
-      ]
-    },
-    {
-      "hero": "Red Cloud",
-      "rarity": "Super Rare",
-      "hero_type": "Shooter",
-      "hero_types": [
-        "Shooter"
-      ],
-      "pvp_score": 31.25,
-      "offense_score": 31.25,
-      "defense_score": 0.0,
-      "rally_joiner_score": 31.25,
-      "rally_offense_score": 31.25,
-      "rally_defense_score": 0.0,
-      "combat_role": "Attack",
-      "first_on_map_skill": "Eagle Eye Marksman",
-      "skill_breakdown": [
-        {
-          "skill_name": "Eagle Eye Marksman",
-          "score": 31.25,
-          "offense_score": 31.25,
-          "defense_score": 0.0,
-          "reasons": [
-            "troop attack 20% with rally bonus",
-            "troop attack 5% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Wilderness Medicine",
-          "score": 0.0,
-          "offense_score": 0.0,
-          "defense_score": 0.0,
-          "reasons": [
-            "non-PvP utility"
           ]
         }
       ]
@@ -3347,6 +3236,117 @@
       ]
     },
     {
+      "hero": "Maeve Millais",
+      "rarity": "Super Rare",
+      "hero_type": "Ranger",
+      "hero_types": [
+        "Ranger"
+      ],
+      "pvp_score": 50.5,
+      "offense_score": 27.5,
+      "defense_score": 23.0,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
+      "rally_defense_score": 0.0,
+      "combat_role": "Hybrid",
+      "first_on_map_skill": "Twin Barrel Onslaught",
+      "skill_breakdown": [
+        {
+          "skill_name": "Twin Barrel Onslaught",
+          "score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
+          "reasons": [
+            "damage dealt 20%",
+            "damage dealt 5%"
+          ]
+        },
+        {
+          "skill_name": "Dual Cover",
+          "score": 23.0,
+          "offense_score": 0.0,
+          "defense_score": 23.0,
+          "reasons": [
+            "damage reduction 20%"
+          ]
+        }
+      ]
+    },
+    {
+      "hero": "Emily",
+      "rarity": "Super Rare",
+      "hero_type": "Shooter",
+      "hero_types": [
+        "Shooter"
+      ],
+      "pvp_score": 27.5,
+      "offense_score": 27.5,
+      "defense_score": 0.0,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
+      "rally_defense_score": 0.0,
+      "combat_role": "Attack",
+      "first_on_map_skill": "Dual Blade Dance",
+      "skill_breakdown": [
+        {
+          "skill_name": "Dual Blade Dance",
+          "score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
+          "reasons": [
+            "damage dealt 20%",
+            "damage dealt 5%"
+          ]
+        },
+        {
+          "skill_name": "Artisan's Wisdom",
+          "score": 0.0,
+          "offense_score": 0.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "non-PvP utility"
+          ]
+        }
+      ]
+    },
+    {
+      "hero": "Red Cloud",
+      "rarity": "Super Rare",
+      "hero_type": "Shooter",
+      "hero_types": [
+        "Shooter"
+      ],
+      "pvp_score": 25.0,
+      "offense_score": 25.0,
+      "defense_score": 0.0,
+      "rally_joiner_score": 25.0,
+      "rally_offense_score": 25.0,
+      "rally_defense_score": 0.0,
+      "combat_role": "Attack",
+      "first_on_map_skill": "Eagle Eye Marksman",
+      "skill_breakdown": [
+        {
+          "skill_name": "Eagle Eye Marksman",
+          "score": 25.0,
+          "offense_score": 25.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "troop attack 20%",
+            "troop attack 5%"
+          ]
+        },
+        {
+          "skill_name": "Wilderness Medicine",
+          "score": 0.0,
+          "offense_score": 0.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "non-PvP utility"
+          ]
+        }
+      ]
+    },
+    {
       "hero": "Dolores",
       "rarity": "Super Rare",
       "hero_type": "Shooter",
@@ -3389,22 +3389,22 @@
       "hero_types": [
         "Brawler"
       ],
-      "pvp_score": 48.75,
+      "pvp_score": 43.0,
       "offense_score": 20.0,
-      "defense_score": 28.75,
-      "rally_joiner_score": 28.75,
+      "defense_score": 23.0,
+      "rally_joiner_score": 23.0,
       "rally_offense_score": 0.0,
-      "rally_defense_score": 28.75,
-      "combat_role": "Defense",
+      "rally_defense_score": 23.0,
+      "combat_role": "Hybrid",
       "first_on_map_skill": "Precision Dissection",
       "skill_breakdown": [
         {
           "skill_name": "Precision Dissection",
-          "score": 28.75,
+          "score": 23.0,
           "offense_score": 0.0,
-          "defense_score": 28.75,
+          "defense_score": 23.0,
           "reasons": [
-            "damage reduction 20% with rally bonus"
+            "damage reduction 20%"
           ]
         },
         {
@@ -3973,42 +3973,6 @@
       ]
     },
     {
-      "hero": "Ezekiel",
-      "rarity": "Super Rare",
-      "hero_type": "Brawler",
-      "hero_types": [
-        "Brawler"
-      ],
-      "pvp_score": 48.75,
-      "offense_score": 20.0,
-      "defense_score": 28.75,
-      "rally_joiner_score": 28.75,
-      "rally_offense_score": 0.0,
-      "rally_defense_score": 28.75,
-      "combat_role": "Defense",
-      "first_on_map_skill": "Precision Dissection",
-      "skill_breakdown": [
-        {
-          "skill_name": "Precision Dissection",
-          "score": 28.75,
-          "offense_score": 0.0,
-          "defense_score": 28.75,
-          "reasons": [
-            "damage reduction 20% with rally bonus"
-          ]
-        },
-        {
-          "skill_name": "Hardened Surgeon",
-          "score": 20.0,
-          "offense_score": 20.0,
-          "defense_score": 0.0,
-          "reasons": [
-            "troop attack 20%"
-          ]
-        }
-      ]
-    },
-    {
       "hero": "Eleanor Dumont",
       "rarity": "Super-Super Rare",
       "hero_type": "Shooter",
@@ -4196,23 +4160,23 @@
       "hero_types": [
         "Ranger"
       ],
-      "pvp_score": 57.38,
-      "offense_score": 34.38,
+      "pvp_score": 50.5,
+      "offense_score": 27.5,
       "defense_score": 23.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
       "rally_defense_score": 0.0,
-      "combat_role": "Attack",
+      "combat_role": "Hybrid",
       "first_on_map_skill": "Twin Barrel Onslaught",
       "skill_breakdown": [
         {
           "skill_name": "Twin Barrel Onslaught",
-          "score": 34.38,
-          "offense_score": 34.38,
+          "score": 27.5,
+          "offense_score": 27.5,
           "defense_score": 0.0,
           "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
+            "damage dealt 20%",
+            "damage dealt 5%"
           ]
         },
         {
@@ -4258,6 +4222,42 @@
           "defense_score": 0.0,
           "reasons": [
             "damage dealt 40% at 50% proc"
+          ]
+        }
+      ]
+    },
+    {
+      "hero": "Ezekiel",
+      "rarity": "Super Rare",
+      "hero_type": "Brawler",
+      "hero_types": [
+        "Brawler"
+      ],
+      "pvp_score": 43.0,
+      "offense_score": 20.0,
+      "defense_score": 23.0,
+      "rally_joiner_score": 23.0,
+      "rally_offense_score": 0.0,
+      "rally_defense_score": 23.0,
+      "combat_role": "Hybrid",
+      "first_on_map_skill": "Precision Dissection",
+      "skill_breakdown": [
+        {
+          "skill_name": "Precision Dissection",
+          "score": 23.0,
+          "offense_score": 0.0,
+          "defense_score": 23.0,
+          "reasons": [
+            "damage reduction 20%"
+          ]
+        },
+        {
+          "skill_name": "Hardened Surgeon",
+          "score": 20.0,
+          "offense_score": 20.0,
+          "defense_score": 0.0,
+          "reasons": [
+            "troop attack 20%"
           ]
         }
       ]
@@ -4386,23 +4386,23 @@
       "hero_types": [
         "Shooter"
       ],
-      "pvp_score": 34.38,
-      "offense_score": 34.38,
+      "pvp_score": 27.5,
+      "offense_score": 27.5,
       "defense_score": 0.0,
-      "rally_joiner_score": 34.38,
-      "rally_offense_score": 34.38,
+      "rally_joiner_score": 27.5,
+      "rally_offense_score": 27.5,
       "rally_defense_score": 0.0,
       "combat_role": "Attack",
       "first_on_map_skill": "Dual Blade Dance",
       "skill_breakdown": [
         {
           "skill_name": "Dual Blade Dance",
-          "score": 34.38,
-          "offense_score": 34.38,
+          "score": 27.5,
+          "offense_score": 27.5,
           "defense_score": 0.0,
           "reasons": [
-            "damage dealt 20% with rally bonus",
-            "damage dealt 5% with rally bonus"
+            "damage dealt 20%",
+            "damage dealt 5%"
           ]
         },
         {
@@ -4423,23 +4423,23 @@
       "hero_types": [
         "Shooter"
       ],
-      "pvp_score": 31.25,
-      "offense_score": 31.25,
+      "pvp_score": 25.0,
+      "offense_score": 25.0,
       "defense_score": 0.0,
-      "rally_joiner_score": 31.25,
-      "rally_offense_score": 31.25,
+      "rally_joiner_score": 25.0,
+      "rally_offense_score": 25.0,
       "rally_defense_score": 0.0,
       "combat_role": "Attack",
       "first_on_map_skill": "Eagle Eye Marksman",
       "skill_breakdown": [
         {
           "skill_name": "Eagle Eye Marksman",
-          "score": 31.25,
-          "offense_score": 31.25,
+          "score": 25.0,
+          "offense_score": 25.0,
           "defense_score": 0.0,
           "reasons": [
-            "troop attack 20% with rally bonus",
-            "troop attack 5% with rally bonus"
+            "troop attack 20%",
+            "troop attack 5%"
           ]
         },
         {
@@ -4863,23 +4863,23 @@
           "hero_types": [
             "Shooter"
           ],
-          "pvp_score": 34.38,
-          "offense_score": 34.38,
+          "pvp_score": 27.5,
+          "offense_score": 27.5,
           "defense_score": 0.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
           "rally_defense_score": 0.0,
           "combat_role": "Attack",
           "first_on_map_skill": "Dual Blade Dance",
           "skill_breakdown": [
             {
               "skill_name": "Dual Blade Dance",
-              "score": 34.38,
-              "offense_score": 34.38,
+              "score": 27.5,
+              "offense_score": 27.5,
               "defense_score": 0.0,
               "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
+                "damage dealt 20%",
+                "damage dealt 5%"
               ]
             },
             {
@@ -4900,23 +4900,23 @@
           "hero_types": [
             "Shooter"
           ],
-          "pvp_score": 31.25,
-          "offense_score": 31.25,
+          "pvp_score": 25.0,
+          "offense_score": 25.0,
           "defense_score": 0.0,
-          "rally_joiner_score": 31.25,
-          "rally_offense_score": 31.25,
+          "rally_joiner_score": 25.0,
+          "rally_offense_score": 25.0,
           "rally_defense_score": 0.0,
           "combat_role": "Attack",
           "first_on_map_skill": "Eagle Eye Marksman",
           "skill_breakdown": [
             {
               "skill_name": "Eagle Eye Marksman",
-              "score": 31.25,
-              "offense_score": 31.25,
+              "score": 25.0,
+              "offense_score": 25.0,
               "defense_score": 0.0,
               "reasons": [
-                "troop attack 20% with rally bonus",
-                "troop attack 5% with rally bonus"
+                "troop attack 20%",
+                "troop attack 5%"
               ]
             },
             {
@@ -4969,43 +4969,6 @@
       ],
       "rally_attack_rankings": [
         {
-          "hero": "Emily",
-          "rarity": "Super Rare",
-          "hero_type": "Shooter",
-          "hero_types": [
-            "Shooter"
-          ],
-          "pvp_score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
-          "rally_defense_score": 0.0,
-          "combat_role": "Attack",
-          "first_on_map_skill": "Dual Blade Dance",
-          "skill_breakdown": [
-            {
-              "skill_name": "Dual Blade Dance",
-              "score": 34.38,
-              "offense_score": 34.38,
-              "defense_score": 0.0,
-              "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Artisan's Wisdom",
-              "score": 0.0,
-              "offense_score": 0.0,
-              "defense_score": 0.0,
-              "reasons": [
-                "non-PvP utility"
-              ]
-            }
-          ]
-        },
-        {
           "hero": "Eleanor Dumont",
           "rarity": "Super-Super Rare",
           "hero_type": "Shooter",
@@ -5046,43 +5009,6 @@
               "defense_score": 27.6,
               "reasons": [
                 "damage reduction 60% at 40% proc"
-              ]
-            }
-          ]
-        },
-        {
-          "hero": "Red Cloud",
-          "rarity": "Super Rare",
-          "hero_type": "Shooter",
-          "hero_types": [
-            "Shooter"
-          ],
-          "pvp_score": 31.25,
-          "offense_score": 31.25,
-          "defense_score": 0.0,
-          "rally_joiner_score": 31.25,
-          "rally_offense_score": 31.25,
-          "rally_defense_score": 0.0,
-          "combat_role": "Attack",
-          "first_on_map_skill": "Eagle Eye Marksman",
-          "skill_breakdown": [
-            {
-              "skill_name": "Eagle Eye Marksman",
-              "score": 31.25,
-              "offense_score": 31.25,
-              "defense_score": 0.0,
-              "reasons": [
-                "troop attack 20% with rally bonus",
-                "troop attack 5% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Wilderness Medicine",
-              "score": 0.0,
-              "offense_score": 0.0,
-              "defense_score": 0.0,
-              "reasons": [
-                "non-PvP utility"
               ]
             }
           ]
@@ -5130,6 +5056,80 @@
               "defense_score": 28.75,
               "reasons": [
                 "damage reduction 25%"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Emily",
+          "rarity": "Super Rare",
+          "hero_type": "Shooter",
+          "hero_types": [
+            "Shooter"
+          ],
+          "pvp_score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
+          "rally_defense_score": 0.0,
+          "combat_role": "Attack",
+          "first_on_map_skill": "Dual Blade Dance",
+          "skill_breakdown": [
+            {
+              "skill_name": "Dual Blade Dance",
+              "score": 27.5,
+              "offense_score": 27.5,
+              "defense_score": 0.0,
+              "reasons": [
+                "damage dealt 20%",
+                "damage dealt 5%"
+              ]
+            },
+            {
+              "skill_name": "Artisan's Wisdom",
+              "score": 0.0,
+              "offense_score": 0.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "non-PvP utility"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Red Cloud",
+          "rarity": "Super Rare",
+          "hero_type": "Shooter",
+          "hero_types": [
+            "Shooter"
+          ],
+          "pvp_score": 25.0,
+          "offense_score": 25.0,
+          "defense_score": 0.0,
+          "rally_joiner_score": 25.0,
+          "rally_offense_score": 25.0,
+          "rally_defense_score": 0.0,
+          "combat_role": "Attack",
+          "first_on_map_skill": "Eagle Eye Marksman",
+          "skill_breakdown": [
+            {
+              "skill_name": "Eagle Eye Marksman",
+              "score": 25.0,
+              "offense_score": 25.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "troop attack 20%",
+                "troop attack 5%"
+              ]
+            },
+            {
+              "skill_name": "Wilderness Medicine",
+              "score": 0.0,
+              "offense_score": 0.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "non-PvP utility"
               ]
             }
           ]
@@ -5427,43 +5427,6 @@
           ]
         },
         {
-          "hero": "Emily",
-          "rarity": "Super Rare",
-          "hero_type": "Shooter",
-          "hero_types": [
-            "Shooter"
-          ],
-          "pvp_score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
-          "rally_defense_score": 0.0,
-          "combat_role": "Attack",
-          "first_on_map_skill": "Dual Blade Dance",
-          "skill_breakdown": [
-            {
-              "skill_name": "Dual Blade Dance",
-              "score": 34.38,
-              "offense_score": 34.38,
-              "defense_score": 0.0,
-              "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Artisan's Wisdom",
-              "score": 0.0,
-              "offense_score": 0.0,
-              "defense_score": 0.0,
-              "reasons": [
-                "non-PvP utility"
-              ]
-            }
-          ]
-        },
-        {
           "hero": "Eleanor Dumont",
           "rarity": "Super-Super Rare",
           "hero_type": "Shooter",
@@ -5504,43 +5467,6 @@
               "defense_score": 27.6,
               "reasons": [
                 "damage reduction 60% at 40% proc"
-              ]
-            }
-          ]
-        },
-        {
-          "hero": "Red Cloud",
-          "rarity": "Super Rare",
-          "hero_type": "Shooter",
-          "hero_types": [
-            "Shooter"
-          ],
-          "pvp_score": 31.25,
-          "offense_score": 31.25,
-          "defense_score": 0.0,
-          "rally_joiner_score": 31.25,
-          "rally_offense_score": 31.25,
-          "rally_defense_score": 0.0,
-          "combat_role": "Attack",
-          "first_on_map_skill": "Eagle Eye Marksman",
-          "skill_breakdown": [
-            {
-              "skill_name": "Eagle Eye Marksman",
-              "score": 31.25,
-              "offense_score": 31.25,
-              "defense_score": 0.0,
-              "reasons": [
-                "troop attack 20% with rally bonus",
-                "troop attack 5% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Wilderness Medicine",
-              "score": 0.0,
-              "offense_score": 0.0,
-              "defense_score": 0.0,
-              "reasons": [
-                "non-PvP utility"
               ]
             }
           ]
@@ -5588,6 +5514,80 @@
               "defense_score": 28.75,
               "reasons": [
                 "damage reduction 25%"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Emily",
+          "rarity": "Super Rare",
+          "hero_type": "Shooter",
+          "hero_types": [
+            "Shooter"
+          ],
+          "pvp_score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
+          "rally_defense_score": 0.0,
+          "combat_role": "Attack",
+          "first_on_map_skill": "Dual Blade Dance",
+          "skill_breakdown": [
+            {
+              "skill_name": "Dual Blade Dance",
+              "score": 27.5,
+              "offense_score": 27.5,
+              "defense_score": 0.0,
+              "reasons": [
+                "damage dealt 20%",
+                "damage dealt 5%"
+              ]
+            },
+            {
+              "skill_name": "Artisan's Wisdom",
+              "score": 0.0,
+              "offense_score": 0.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "non-PvP utility"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Red Cloud",
+          "rarity": "Super Rare",
+          "hero_type": "Shooter",
+          "hero_types": [
+            "Shooter"
+          ],
+          "pvp_score": 25.0,
+          "offense_score": 25.0,
+          "defense_score": 0.0,
+          "rally_joiner_score": 25.0,
+          "rally_offense_score": 25.0,
+          "rally_defense_score": 0.0,
+          "combat_role": "Attack",
+          "first_on_map_skill": "Eagle Eye Marksman",
+          "skill_breakdown": [
+            {
+              "skill_name": "Eagle Eye Marksman",
+              "score": 25.0,
+              "offense_score": 25.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "troop attack 20%",
+                "troop attack 5%"
+              ]
+            },
+            {
+              "skill_name": "Wilderness Medicine",
+              "score": 0.0,
+              "offense_score": 0.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "non-PvP utility"
               ]
             }
           ]
@@ -5723,43 +5723,6 @@
           ]
         },
         {
-          "hero": "Emily",
-          "rarity": "Super Rare",
-          "hero_type": "Shooter",
-          "hero_types": [
-            "Shooter"
-          ],
-          "pvp_score": 34.38,
-          "offense_score": 34.38,
-          "defense_score": 0.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
-          "rally_defense_score": 0.0,
-          "combat_role": "Attack",
-          "first_on_map_skill": "Dual Blade Dance",
-          "skill_breakdown": [
-            {
-              "skill_name": "Dual Blade Dance",
-              "score": 34.38,
-              "offense_score": 34.38,
-              "defense_score": 0.0,
-              "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Artisan's Wisdom",
-              "score": 0.0,
-              "offense_score": 0.0,
-              "defense_score": 0.0,
-              "reasons": [
-                "non-PvP utility"
-              ]
-            }
-          ]
-        },
-        {
           "hero": "Annie Oakes",
           "rarity": "Super-Super Rare",
           "hero_type": "Shooter",
@@ -5800,43 +5763,6 @@
               "defense_score": 0.0,
               "reasons": [
                 "damage dealt 50% at 50% proc"
-              ]
-            }
-          ]
-        },
-        {
-          "hero": "Red Cloud",
-          "rarity": "Super Rare",
-          "hero_type": "Shooter",
-          "hero_types": [
-            "Shooter"
-          ],
-          "pvp_score": 31.25,
-          "offense_score": 31.25,
-          "defense_score": 0.0,
-          "rally_joiner_score": 31.25,
-          "rally_offense_score": 31.25,
-          "rally_defense_score": 0.0,
-          "combat_role": "Attack",
-          "first_on_map_skill": "Eagle Eye Marksman",
-          "skill_breakdown": [
-            {
-              "skill_name": "Eagle Eye Marksman",
-              "score": 31.25,
-              "offense_score": 31.25,
-              "defense_score": 0.0,
-              "reasons": [
-                "troop attack 20% with rally bonus",
-                "troop attack 5% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Wilderness Medicine",
-              "score": 0.0,
-              "offense_score": 0.0,
-              "defense_score": 0.0,
-              "reasons": [
-                "non-PvP utility"
               ]
             }
           ]
@@ -5883,6 +5809,80 @@
               "defense_score": 0.0,
               "reasons": [
                 "damage dealt 25%"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Emily",
+          "rarity": "Super Rare",
+          "hero_type": "Shooter",
+          "hero_types": [
+            "Shooter"
+          ],
+          "pvp_score": 27.5,
+          "offense_score": 27.5,
+          "defense_score": 0.0,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
+          "rally_defense_score": 0.0,
+          "combat_role": "Attack",
+          "first_on_map_skill": "Dual Blade Dance",
+          "skill_breakdown": [
+            {
+              "skill_name": "Dual Blade Dance",
+              "score": 27.5,
+              "offense_score": 27.5,
+              "defense_score": 0.0,
+              "reasons": [
+                "damage dealt 20%",
+                "damage dealt 5%"
+              ]
+            },
+            {
+              "skill_name": "Artisan's Wisdom",
+              "score": 0.0,
+              "offense_score": 0.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "non-PvP utility"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Red Cloud",
+          "rarity": "Super Rare",
+          "hero_type": "Shooter",
+          "hero_types": [
+            "Shooter"
+          ],
+          "pvp_score": 25.0,
+          "offense_score": 25.0,
+          "defense_score": 0.0,
+          "rally_joiner_score": 25.0,
+          "rally_offense_score": 25.0,
+          "rally_defense_score": 0.0,
+          "combat_role": "Attack",
+          "first_on_map_skill": "Eagle Eye Marksman",
+          "skill_breakdown": [
+            {
+              "skill_name": "Eagle Eye Marksman",
+              "score": 25.0,
+              "offense_score": 25.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "troop attack 20%",
+                "troop attack 5%"
+              ]
+            },
+            {
+              "skill_name": "Wilderness Medicine",
+              "score": 0.0,
+              "offense_score": 0.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "non-PvP utility"
               ]
             }
           ]
@@ -6187,23 +6187,23 @@
           "hero_types": [
             "Shooter"
           ],
-          "pvp_score": 34.38,
-          "offense_score": 34.38,
+          "pvp_score": 27.5,
+          "offense_score": 27.5,
           "defense_score": 0.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
           "rally_defense_score": 0.0,
           "combat_role": "Attack",
           "first_on_map_skill": "Dual Blade Dance",
           "skill_breakdown": [
             {
               "skill_name": "Dual Blade Dance",
-              "score": 34.38,
-              "offense_score": 34.38,
+              "score": 27.5,
+              "offense_score": 27.5,
               "defense_score": 0.0,
               "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
+                "damage dealt 20%",
+                "damage dealt 5%"
               ]
             },
             {
@@ -6224,23 +6224,23 @@
           "hero_types": [
             "Shooter"
           ],
-          "pvp_score": 31.25,
-          "offense_score": 31.25,
+          "pvp_score": 25.0,
+          "offense_score": 25.0,
           "defense_score": 0.0,
-          "rally_joiner_score": 31.25,
-          "rally_offense_score": 31.25,
+          "rally_joiner_score": 25.0,
+          "rally_offense_score": 25.0,
           "rally_defense_score": 0.0,
           "combat_role": "Attack",
           "first_on_map_skill": "Eagle Eye Marksman",
           "skill_breakdown": [
             {
               "skill_name": "Eagle Eye Marksman",
-              "score": 31.25,
-              "offense_score": 31.25,
+              "score": 25.0,
+              "offense_score": 25.0,
               "defense_score": 0.0,
               "reasons": [
-                "troop attack 20% with rally bonus",
-                "troop attack 5% with rally bonus"
+                "troop attack 20%",
+                "troop attack 5%"
               ]
             },
             {
@@ -6483,23 +6483,23 @@
           "hero_types": [
             "Ranger"
           ],
-          "pvp_score": 57.38,
-          "offense_score": 34.38,
+          "pvp_score": 50.5,
+          "offense_score": 27.5,
           "defense_score": 23.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
           "rally_defense_score": 0.0,
-          "combat_role": "Attack",
+          "combat_role": "Hybrid",
           "first_on_map_skill": "Twin Barrel Onslaught",
           "skill_breakdown": [
             {
               "skill_name": "Twin Barrel Onslaught",
-              "score": 34.38,
-              "offense_score": 34.38,
+              "score": 27.5,
+              "offense_score": 27.5,
               "defense_score": 0.0,
               "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
+                "damage dealt 20%",
+                "damage dealt 5%"
               ]
             },
             {
@@ -6660,43 +6660,6 @@
       ],
       "rally_attack_rankings": [
         {
-          "hero": "Maeve Millais",
-          "rarity": "Super Rare",
-          "hero_type": "Ranger",
-          "hero_types": [
-            "Ranger"
-          ],
-          "pvp_score": 57.38,
-          "offense_score": 34.38,
-          "defense_score": 23.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
-          "rally_defense_score": 0.0,
-          "combat_role": "Attack",
-          "first_on_map_skill": "Twin Barrel Onslaught",
-          "skill_breakdown": [
-            {
-              "skill_name": "Twin Barrel Onslaught",
-              "score": 34.38,
-              "offense_score": 34.38,
-              "defense_score": 0.0,
-              "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Dual Cover",
-              "score": 23.0,
-              "offense_score": 0.0,
-              "defense_score": 23.0,
-              "reasons": [
-                "damage reduction 20%"
-              ]
-            }
-          ]
-        },
-        {
           "hero": "Billy the Kid",
           "rarity": "Super-Super Rare",
           "hero_type": "All Types",
@@ -6739,6 +6702,43 @@
               "defense_score": 28.75,
               "reasons": [
                 "damage reduction 25%"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Maeve Millais",
+          "rarity": "Super Rare",
+          "hero_type": "Ranger",
+          "hero_types": [
+            "Ranger"
+          ],
+          "pvp_score": 50.5,
+          "offense_score": 27.5,
+          "defense_score": 23.0,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
+          "rally_defense_score": 0.0,
+          "combat_role": "Hybrid",
+          "first_on_map_skill": "Twin Barrel Onslaught",
+          "skill_breakdown": [
+            {
+              "skill_name": "Twin Barrel Onslaught",
+              "score": 27.5,
+              "offense_score": 27.5,
+              "defense_score": 0.0,
+              "reasons": [
+                "damage dealt 20%",
+                "damage dealt 5%"
+              ]
+            },
+            {
+              "skill_name": "Dual Cover",
+              "score": 23.0,
+              "offense_score": 0.0,
+              "defense_score": 23.0,
+              "reasons": [
+                "damage reduction 20%"
               ]
             }
           ]
@@ -7142,43 +7142,6 @@
           ]
         },
         {
-          "hero": "Maeve Millais",
-          "rarity": "Super Rare",
-          "hero_type": "Ranger",
-          "hero_types": [
-            "Ranger"
-          ],
-          "pvp_score": 57.38,
-          "offense_score": 34.38,
-          "defense_score": 23.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
-          "rally_defense_score": 0.0,
-          "combat_role": "Attack",
-          "first_on_map_skill": "Twin Barrel Onslaught",
-          "skill_breakdown": [
-            {
-              "skill_name": "Twin Barrel Onslaught",
-              "score": 34.38,
-              "offense_score": 34.38,
-              "defense_score": 0.0,
-              "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Dual Cover",
-              "score": 23.0,
-              "offense_score": 0.0,
-              "defense_score": 23.0,
-              "reasons": [
-                "damage reduction 20%"
-              ]
-            }
-          ]
-        },
-        {
           "hero": "Billy the Kid",
           "rarity": "Super-Super Rare",
           "hero_type": "All Types",
@@ -7221,6 +7184,43 @@
               "defense_score": 28.75,
               "reasons": [
                 "damage reduction 25%"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Maeve Millais",
+          "rarity": "Super Rare",
+          "hero_type": "Ranger",
+          "hero_types": [
+            "Ranger"
+          ],
+          "pvp_score": 50.5,
+          "offense_score": 27.5,
+          "defense_score": 23.0,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
+          "rally_defense_score": 0.0,
+          "combat_role": "Hybrid",
+          "first_on_map_skill": "Twin Barrel Onslaught",
+          "skill_breakdown": [
+            {
+              "skill_name": "Twin Barrel Onslaught",
+              "score": 27.5,
+              "offense_score": 27.5,
+              "defense_score": 0.0,
+              "reasons": [
+                "damage dealt 20%",
+                "damage dealt 5%"
+              ]
+            },
+            {
+              "skill_name": "Dual Cover",
+              "score": 23.0,
+              "offense_score": 0.0,
+              "defense_score": 23.0,
+              "reasons": [
+                "damage reduction 20%"
               ]
             }
           ]
@@ -7527,43 +7527,6 @@
           ]
         },
         {
-          "hero": "Maeve Millais",
-          "rarity": "Super Rare",
-          "hero_type": "Ranger",
-          "hero_types": [
-            "Ranger"
-          ],
-          "pvp_score": 57.38,
-          "offense_score": 34.38,
-          "defense_score": 23.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
-          "rally_defense_score": 0.0,
-          "combat_role": "Attack",
-          "first_on_map_skill": "Twin Barrel Onslaught",
-          "skill_breakdown": [
-            {
-              "skill_name": "Twin Barrel Onslaught",
-              "score": 34.38,
-              "offense_score": 34.38,
-              "defense_score": 0.0,
-              "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Dual Cover",
-              "score": 23.0,
-              "offense_score": 0.0,
-              "defense_score": 23.0,
-              "reasons": [
-                "damage reduction 20%"
-              ]
-            }
-          ]
-        },
-        {
           "hero": "Jango",
           "rarity": "Super-Super Rare",
           "hero_type": "Ranger",
@@ -7604,6 +7567,43 @@
               "defense_score": 21.25,
               "reasons": [
                 "troop life 25%"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Maeve Millais",
+          "rarity": "Super Rare",
+          "hero_type": "Ranger",
+          "hero_types": [
+            "Ranger"
+          ],
+          "pvp_score": 50.5,
+          "offense_score": 27.5,
+          "defense_score": 23.0,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
+          "rally_defense_score": 0.0,
+          "combat_role": "Hybrid",
+          "first_on_map_skill": "Twin Barrel Onslaught",
+          "skill_breakdown": [
+            {
+              "skill_name": "Twin Barrel Onslaught",
+              "score": 27.5,
+              "offense_score": 27.5,
+              "defense_score": 0.0,
+              "reasons": [
+                "damage dealt 20%",
+                "damage dealt 5%"
+              ]
+            },
+            {
+              "skill_name": "Dual Cover",
+              "score": 23.0,
+              "offense_score": 0.0,
+              "defense_score": 23.0,
+              "reasons": [
+                "damage reduction 20%"
               ]
             }
           ]
@@ -7943,23 +7943,23 @@
           "hero_types": [
             "Ranger"
           ],
-          "pvp_score": 57.38,
-          "offense_score": 34.38,
+          "pvp_score": 50.5,
+          "offense_score": 27.5,
           "defense_score": 23.0,
-          "rally_joiner_score": 34.38,
-          "rally_offense_score": 34.38,
+          "rally_joiner_score": 27.5,
+          "rally_offense_score": 27.5,
           "rally_defense_score": 0.0,
-          "combat_role": "Attack",
+          "combat_role": "Hybrid",
           "first_on_map_skill": "Twin Barrel Onslaught",
           "skill_breakdown": [
             {
               "skill_name": "Twin Barrel Onslaught",
-              "score": 34.38,
-              "offense_score": 34.38,
+              "score": 27.5,
+              "offense_score": 27.5,
               "defense_score": 0.0,
               "reasons": [
-                "damage dealt 20% with rally bonus",
-                "damage dealt 5% with rally bonus"
+                "damage dealt 20%",
+                "damage dealt 5%"
               ]
             },
             {
@@ -8305,42 +8305,6 @@
           ]
         },
         {
-          "hero": "Ezekiel",
-          "rarity": "Super Rare",
-          "hero_type": "Brawler",
-          "hero_types": [
-            "Brawler"
-          ],
-          "pvp_score": 48.75,
-          "offense_score": 20.0,
-          "defense_score": 28.75,
-          "rally_joiner_score": 28.75,
-          "rally_offense_score": 0.0,
-          "rally_defense_score": 28.75,
-          "combat_role": "Defense",
-          "first_on_map_skill": "Precision Dissection",
-          "skill_breakdown": [
-            {
-              "skill_name": "Precision Dissection",
-              "score": 28.75,
-              "offense_score": 0.0,
-              "defense_score": 28.75,
-              "reasons": [
-                "damage reduction 20% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Hardened Surgeon",
-              "score": 20.0,
-              "offense_score": 20.0,
-              "defense_score": 0.0,
-              "reasons": [
-                "troop attack 20%"
-              ]
-            }
-          ]
-        },
-        {
           "hero": "Big Bart",
           "rarity": "Super Rare",
           "hero_type": "Brawler",
@@ -8372,6 +8336,42 @@
               "defense_score": 19.0,
               "reasons": [
                 "enemy attack down 20%"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Ezekiel",
+          "rarity": "Super Rare",
+          "hero_type": "Brawler",
+          "hero_types": [
+            "Brawler"
+          ],
+          "pvp_score": 43.0,
+          "offense_score": 20.0,
+          "defense_score": 23.0,
+          "rally_joiner_score": 23.0,
+          "rally_offense_score": 0.0,
+          "rally_defense_score": 23.0,
+          "combat_role": "Hybrid",
+          "first_on_map_skill": "Precision Dissection",
+          "skill_breakdown": [
+            {
+              "skill_name": "Precision Dissection",
+              "score": 23.0,
+              "offense_score": 0.0,
+              "defense_score": 23.0,
+              "reasons": [
+                "damage reduction 20%"
+              ]
+            },
+            {
+              "skill_name": "Hardened Surgeon",
+              "score": 20.0,
+              "offense_score": 20.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "troop attack 20%"
               ]
             }
           ]
@@ -8634,42 +8634,6 @@
           ]
         },
         {
-          "hero": "Ezekiel",
-          "rarity": "Super Rare",
-          "hero_type": "Brawler",
-          "hero_types": [
-            "Brawler"
-          ],
-          "pvp_score": 48.75,
-          "offense_score": 20.0,
-          "defense_score": 28.75,
-          "rally_joiner_score": 28.75,
-          "rally_offense_score": 0.0,
-          "rally_defense_score": 28.75,
-          "combat_role": "Defense",
-          "first_on_map_skill": "Precision Dissection",
-          "skill_breakdown": [
-            {
-              "skill_name": "Precision Dissection",
-              "score": 28.75,
-              "offense_score": 0.0,
-              "defense_score": 28.75,
-              "reasons": [
-                "damage reduction 20% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Hardened Surgeon",
-              "score": 20.0,
-              "offense_score": 20.0,
-              "defense_score": 0.0,
-              "reasons": [
-                "troop attack 20%"
-              ]
-            }
-          ]
-        },
-        {
           "hero": "Big Bart",
           "rarity": "Super Rare",
           "hero_type": "Brawler",
@@ -8701,6 +8665,42 @@
               "defense_score": 19.0,
               "reasons": [
                 "enemy attack down 20%"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Ezekiel",
+          "rarity": "Super Rare",
+          "hero_type": "Brawler",
+          "hero_types": [
+            "Brawler"
+          ],
+          "pvp_score": 43.0,
+          "offense_score": 20.0,
+          "defense_score": 23.0,
+          "rally_joiner_score": 23.0,
+          "rally_offense_score": 0.0,
+          "rally_defense_score": 23.0,
+          "combat_role": "Hybrid",
+          "first_on_map_skill": "Precision Dissection",
+          "skill_breakdown": [
+            {
+              "skill_name": "Precision Dissection",
+              "score": 23.0,
+              "offense_score": 0.0,
+              "defense_score": 23.0,
+              "reasons": [
+                "damage reduction 20%"
+              ]
+            },
+            {
+              "skill_name": "Hardened Surgeon",
+              "score": 20.0,
+              "offense_score": 20.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "troop attack 20%"
               ]
             }
           ]
@@ -8871,42 +8871,6 @@
           ]
         },
         {
-          "hero": "Ezekiel",
-          "rarity": "Super Rare",
-          "hero_type": "Brawler",
-          "hero_types": [
-            "Brawler"
-          ],
-          "pvp_score": 48.75,
-          "offense_score": 20.0,
-          "defense_score": 28.75,
-          "rally_joiner_score": 28.75,
-          "rally_offense_score": 0.0,
-          "rally_defense_score": 28.75,
-          "combat_role": "Defense",
-          "first_on_map_skill": "Precision Dissection",
-          "skill_breakdown": [
-            {
-              "skill_name": "Precision Dissection",
-              "score": 28.75,
-              "offense_score": 0.0,
-              "defense_score": 28.75,
-              "reasons": [
-                "damage reduction 20% with rally bonus"
-              ]
-            },
-            {
-              "skill_name": "Hardened Surgeon",
-              "score": 20.0,
-              "offense_score": 20.0,
-              "defense_score": 0.0,
-              "reasons": [
-                "troop attack 20%"
-              ]
-            }
-          ]
-        },
-        {
           "hero": "Big Bart",
           "rarity": "Super Rare",
           "hero_type": "Brawler",
@@ -8938,6 +8902,42 @@
               "defense_score": 19.0,
               "reasons": [
                 "enemy attack down 20%"
+              ]
+            }
+          ]
+        },
+        {
+          "hero": "Ezekiel",
+          "rarity": "Super Rare",
+          "hero_type": "Brawler",
+          "hero_types": [
+            "Brawler"
+          ],
+          "pvp_score": 43.0,
+          "offense_score": 20.0,
+          "defense_score": 23.0,
+          "rally_joiner_score": 23.0,
+          "rally_offense_score": 0.0,
+          "rally_defense_score": 23.0,
+          "combat_role": "Hybrid",
+          "first_on_map_skill": "Precision Dissection",
+          "skill_breakdown": [
+            {
+              "skill_name": "Precision Dissection",
+              "score": 23.0,
+              "offense_score": 0.0,
+              "defense_score": 23.0,
+              "reasons": [
+                "damage reduction 20%"
+              ]
+            },
+            {
+              "skill_name": "Hardened Surgeon",
+              "score": 20.0,
+              "offense_score": 20.0,
+              "defense_score": 0.0,
+              "reasons": [
+                "troop attack 20%"
               ]
             }
           ]
@@ -9298,22 +9298,22 @@
           "hero_types": [
             "Brawler"
           ],
-          "pvp_score": 48.75,
+          "pvp_score": 43.0,
           "offense_score": 20.0,
-          "defense_score": 28.75,
-          "rally_joiner_score": 28.75,
+          "defense_score": 23.0,
+          "rally_joiner_score": 23.0,
           "rally_offense_score": 0.0,
-          "rally_defense_score": 28.75,
-          "combat_role": "Defense",
+          "rally_defense_score": 23.0,
+          "combat_role": "Hybrid",
           "first_on_map_skill": "Precision Dissection",
           "skill_breakdown": [
             {
               "skill_name": "Precision Dissection",
-              "score": 28.75,
+              "score": 23.0,
               "offense_score": 0.0,
-              "defense_score": 28.75,
+              "defense_score": 23.0,
               "reasons": [
-                "damage reduction 20% with rally bonus"
+                "damage reduction 20%"
               ]
             },
             {
@@ -9618,22 +9618,22 @@
           "hero_types": [
             "Brawler"
           ],
-          "pvp_score": 48.75,
+          "pvp_score": 43.0,
           "offense_score": 20.0,
-          "defense_score": 28.75,
-          "rally_joiner_score": 28.75,
+          "defense_score": 23.0,
+          "rally_joiner_score": 23.0,
           "rally_offense_score": 0.0,
-          "rally_defense_score": 28.75,
-          "combat_role": "Defense",
+          "rally_defense_score": 23.0,
+          "combat_role": "Hybrid",
           "first_on_map_skill": "Precision Dissection",
           "skill_breakdown": [
             {
               "skill_name": "Precision Dissection",
-              "score": 28.75,
+              "score": 23.0,
               "offense_score": 0.0,
-              "defense_score": 28.75,
+              "defense_score": 23.0,
               "reasons": [
-                "damage reduction 20% with rally bonus"
+                "damage reduction 20%"
               ]
             },
             {
